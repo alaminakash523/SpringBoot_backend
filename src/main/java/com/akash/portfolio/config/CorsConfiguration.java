@@ -35,7 +35,7 @@ public class CorsConfiguration {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("http://localhost:3000", "http://localhost:3001")
+                        .allowedOrigins("http://localhost:3000", "http://localhost:3001", "http://alaminakash.com", "https://springboot-backend-ex3e.onrender.com/")
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
                         .allowCredentials(true);
